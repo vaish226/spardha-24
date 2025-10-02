@@ -251,12 +251,12 @@
   font-size: 1.1rem;
   margin-bottom: 2rem;
   padding: 15px 20px;
-  /* background: rgba(74, 130, 246, 0.1);
-  border-radius: 10px;  */
-  /* border: 1px solid rgba(74, 130, 246, 0.3); */
-  border-top: none;
+  background: rgba(74, 130, 246, 0.1); /* Restore original light blue background */
+  border-radius: 10px; /* Restore rounded corners on all sides */
+  border: 1px solid rgba(74, 130, 246, 0.2);
   animation: pulseGlow 4s ease-in-out infinite;
   backdrop-filter: blur(10px);
+  margin-top: 0;
 }
 
 

@@ -151,7 +151,7 @@ const Events = () => {
                       }}
                       aria-label="Flip card back"
                     >
-                      ↻
+                      ⇄
                     </button>
                     
                     <div className={styles.contactsHeader}>Contacts</div>
